@@ -26,4 +26,4 @@ Popular reverse engineering tools support objectives #1, #3, and #5, but do not 
 
 ### Solution
 
-The problem warrants the need for a new tool. However, with Captone, Unicorn, Keystone, and Ghidra Python libraries all of the required features exist. So this project would seek to join them and introduce an optional UI to accomplish all of my reverse engineering work-flow objectives.
+The problem warrants the need for a new tool. However, with Captone, Unicorn, Keystone, and Ghidra Python libraries all of the required features exist. So this project would seek to join them into a reverse engineering Python library and introduce an optional UI to accomplish all of my reverse engineering work-flow objectives.
