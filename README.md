@@ -4,7 +4,7 @@ Dynamic Execution: The program makes a web request, potentially decodes the resp
 
 ### Objectives
 
-I have four work-flow objectives for approaching reverse engineering:
+I have five work-flow objectives for approaching reverse engineering:
 
 1. I want to visualize control flow, stack, and register state like popular reverse engineering tools.
 2. I want that visualization to reflect Dynamic Execution state changes at run-time.
@@ -14,7 +14,7 @@ I have four work-flow objectives for approaching reverse engineering:
 
 ### Problem
 
-Popular reverse engineering tools do not support objectives #2 & #4.
+Popular reverse engineering tools support objectives #1, #3, and #5, but do not support objectives #2 & #4.
 
 ### Solution
 
