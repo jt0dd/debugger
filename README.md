@@ -14,7 +14,7 @@ I have five work-flow objectives for approaching reverse engineering:
 
 To elaborate on #4, which might not be obvious, with some use-cases:
 
-- Hook all jumps with destination addresses that seem unusual (not the start address of any local or imported subroutine, nor loop). This would be an effective analysis option. against ROPing and dynamically executing code.
+- Hook all jumps with destination addresses that seem unusual (not the start address of any local or imported subroutine, nor loop). This would be an effective analysis option against ROPing and dynamically executing code.
 - Hook any subroutines which accept untrusted external input. This would be effective as part of taint analysis.
 - Hook any subroutine calls which would make code executable (VirtualProtect, for example).
 
